@@ -12,6 +12,12 @@ gem 'thin'
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass'
 gem 'compass-rails'
+gem 'slim-rails'
+gem 'rails-backbone', '~> 0.9.10'
+gem 'simple_form'
+gem "better_errors"
+gem "binding_of_caller"
+gem 'skim'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

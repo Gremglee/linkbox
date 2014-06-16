@@ -1,0 +1,6 @@
+li.list-group-item class=('active' if @item.active)
+  = @item.title
+
+  - if @item.active
+    br
+    = @item.description
